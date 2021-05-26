@@ -1,0 +1,9 @@
+- HIERARCHY RENDERING ORDER
+    In the hierarchy panel, when you make a 2D, the objects will be rendered from top to bottom.
+Which means: the objects that are further down will show up above the ones on top.
+If you're making a 3D game, you don't need to worry about sorting these,
+since the rendering order will depend on the camera's current position.
+
+- UPDATE VS FIXED UPDATE
+    Update runs once per frame, fixed update runs once per every physics change.
+As implied, you should use fixed update when working with physics.
